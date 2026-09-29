@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gestion des absences</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<h1>Gestion des absences</h1>
+<ul>
+  <li><a href="absences/get-all-etudiants">Liste des étudiants</a></li>
+  <li><a href="absences/absences-mois?mois=5">Absences du mois 5</a></li>
+</ul>
+<form action="absences/search-etudiant" method="get">
+  Nom : <input type="text" name="nom">
+  <button type="submit">Rechercher étudiant</button>
+</form>
+<form action="absences/absences-etudiant" method="get">
+  ID étudiant : <input type="number" name="id">
+  <button type="submit">Ses absences</button>
+</form>
+<form action="absences/absences-mois" method="get">
+  Mois : <input type="number" name="mois">
+  <button type="submit">Absences du mois</button>
+</form>
+</body>
+</html>

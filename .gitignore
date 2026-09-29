@@ -1,0 +1,28 @@
+target/
+*.class
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
